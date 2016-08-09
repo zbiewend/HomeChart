@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_widget_indicators">
+    <pa_widget_indicators action="INSERT_OR_UPDATE">
+        <aggregate/>
+        <breakdown display_value="Patient">6989290cdb3c26406634dd30cf9619ff</breakdown>
+        <breakdown_level2/>
+        <chart_type>line</chart_type>
+        <color/>
+        <element>665e09aedbbb1a006634dd30cf9619a4</element>
+        <element_level2/>
+        <follow_element>false</follow_element>
+        <follow_managed_element>false</follow_managed_element>
+        <followed_breakdown/>
+        <indicator display_value="Weight (pounds) OLD">b005147adb68e2406634dd30cf961939</indicator>
+        <label>Zachary</label>
+        <order>10</order>
+        <second_y_axis>false</second_y_axis>
+        <sys_class_name>pa_widget_indicators</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-07-19 00:49:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c30398cdb3c26406634dd30cf961967</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Zachary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>pa_widget_indicators_8c30398cdb3c26406634dd30cf961967</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-07-19 01:04:05</sys_updated_on>
+        <widget display_value="Patient">56efe18cdb3c26406634dd30cf961962</widget>
+        <widget_indicator/>
+    </pa_widget_indicators>
+</record_update>

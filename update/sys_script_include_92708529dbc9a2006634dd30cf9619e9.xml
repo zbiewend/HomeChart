@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_16717_homechart.DuplicateEntry</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DuplicateEntry</name>
+        <script><![CDATA[var DuplicateEntry = Class.create();
+DuplicateEntry.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getFields: function () {
+		
+		var gr = new GlideRecord( 'sys_dictionary' );
+		gr.addQuery( 'name', this.getParameter( 'sysparm_table' ) );
+		gr.addNotNullQuery( 'element' );
+		gr.query();
+		
+		var out = [];
+		
+		while ( gr.next() )
+			out.push( gr.element.toString() );
+		
+		return out.join( ',' );
+		
+	},
+	
+	isDuplicate: function () {
+		
+		
+		
+	},
+	
+    type: 'DuplicateEntry'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-08-04 23:54:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>92708529dbc9a2006634dd30cf9619e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DuplicateEntry</sys_name>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>sys_script_include_92708529dbc9a2006634dd30cf9619e9</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-08-05 00:01:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

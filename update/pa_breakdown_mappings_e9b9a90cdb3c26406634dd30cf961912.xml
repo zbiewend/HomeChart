@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_breakdown_mappings">
+    <pa_breakdown_mappings action="INSERT_OR_UPDATE">
+        <breakdown display_value="Patient">6989290cdb3c26406634dd30cf9619ff</breakdown>
+        <facts_table>x_16717_homechart_weight</facts_table>
+        <field>patient</field>
+        <script/>
+        <scripted>false</scripted>
+        <sys_class_name>pa_breakdown_mappings</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-07-19 00:20:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9b9a90cdb3c26406634dd30cf961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6989290cdb3c26406634dd30cf9619ff</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>pa_breakdown_mappings_e9b9a90cdb3c26406634dd30cf961912</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-07-19 00:20:45</sys_updated_on>
+    </pa_breakdown_mappings>
+</record_update>

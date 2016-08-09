@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_16717_homechart_encounter</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_16717_homechart.encounter_reminder</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html/>
+        <message_list>406bbd59db09a2006634dd30cf96194e</message_list>
+        <message_text/>
+        <name>Encounter reminder</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>true</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Biewend family">84b16891dbc5a2006634dd30cf961970</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-07-04 17:46:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c52980e3dbd822406634dd30cf961921</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Encounter reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>sysevent_email_action_c52980e3dbd822406634dd30cf961921</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-08-04 09:07:47</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

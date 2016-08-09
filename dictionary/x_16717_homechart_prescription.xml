@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Prescription" max_length="40" name="x_16717_homechart_prescription" type="collection">
+        <element label="Dosage" max_length="1000" name="dosage" type="string"/>
+        <element label="Dose" max_length="40" name="dose" type="decimal"/>
+        <element label="Frequency (hours)" max_length="40" name="frequency" type="integer"/>
+        <element label="Instructions" max_length="1000" name="instructions" type="string"/>
+        <element label="Medication" max_length="32" name="medication" reference="x_16717_homechart_medication" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var dateTime = current.date_time.toString();&#13;&#10;&#9;var date = dateTime.split( ' ' )[0];&#13;&#10;&#9;var med = current.medication.medicine;&#13;&#10;&#9;var pt = current.patient.first_name;&#13;&#10;&#9;&#13;&#10;&#9;return pt + ' - ' + med + ' - ' + date;&#13;&#10;&#13;&#10;})(current);" display="true" label="Name" max_length="100" name="name" read_only="true" type="string" virtual="true"/>
+        <element label="Provider" max_length="32" name="provider" reference="x_16717_homechart_provider" type="reference"/>
+        <index name="index">
+            <element name="provider"/>
+        </index>
+        <index name="index2">
+            <element name="medication"/>
+        </index>
+    </element>
+</database>

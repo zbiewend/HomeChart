@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Height" max_length="40" name="x_16717_homechart_height" type="collection">
+        <element label="Centimeters" max_length="40" name="centimeters" type="decimal"/>
+        <element label="Feet" max_length="40" name="feet" type="integer"/>
+        <element label="Inches" max_length="40" name="inches" type="decimal"/>
+        <element label="Measured with" max_length="100" name="measured_with" type="string"/>
+        <element label="Meters" max_length="40" name="meters" type="decimal"/>
+        <element choice="3" default="US" label="Units" max_length="40" name="units" type="choice">
+            <choice>
+                <element label="US" sequence="0" value="US"/>
+                <element label="Metric (m)" sequence="1" value="Metric (m)"/>
+                <element label="Metric (cm)" sequence="2" value="Metric (cm)"/>
+            </choice>
+        </element>
+    </element>
+</database>

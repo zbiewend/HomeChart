@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>centimeters</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-06-21 15:09:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ff88a49bdbcc2e006634dd30cf96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>centimeters</sys_name>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ff88a49bdbcc2e006634dd30cf96199b</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-06-21 15:09:15</sys_updated_on>
+        <table>x_16717_homechart_height</table>
+        <ui_policy display_value="Show cm units">9e88285bdbcc2e006634dd30cf9619fb</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

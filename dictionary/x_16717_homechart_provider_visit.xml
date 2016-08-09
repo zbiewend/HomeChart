@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Provider Visit" max_length="40" name="x_16717_homechart_provider_visit" type="collection">
+        <element label="Provider" max_length="32" name="provider" reference="x_16717_homechart_provider" type="reference"/>
+        <index name="index">
+            <element name="provider"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Provider" max_length="40" name="x_16717_homechart_provider" type="collection">
+        <element label="Address" max_length="1000" name="address" type="string"/>
+        <element label="Clinic" max_length="100" name="clinic" type="string"/>
+        <element choice="1" label="Credentials" max_length="40" name="credentials" type="choice">
+            <choice>
+                <element label="CNA" sequence="0" value="CNA"/>
+                <element label="RN" sequence="1" value="RN"/>
+                <element label="PA" sequence="2" value="PA"/>
+                <element label="NP" sequence="3" value="NP"/>
+                <element label="MD" sequence="4" value="MD"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="First name" max_length="100" name="first_name" type="string"/>
+        <element label="Last name" max_length="100" name="last_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return current.first_name + ' ' + current.last_name + ( current.credentials != '' ? ', ' + current.credentials : '' );&#13;&#10;&#13;&#10;})(current);" display="true" label="Name" max_length="200" name="name" read_only="true" type="string" virtual="true"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="Picture" max_length="40" name="picture" type="user_image"/>
+        <element label="Title" max_length="100" name="title" type="string"/>
+    </element>
+</database>

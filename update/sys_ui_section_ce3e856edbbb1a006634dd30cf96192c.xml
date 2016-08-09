@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="ce3e856edbbb1a006634dd30cf96192c" sys_domain="global" table="x_16717_homechart_patient" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>e2c87159db09a2006634dd30cf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>1</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>66c87159db09a2006634dd30cf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>e6c87159db09a2006634dd30cf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_name</element>
+            <position>3</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>6ac87159db09a2006634dd30cf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>system_user_record</element>
+            <position>4</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>eac87159db09a2006634dd30cf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>6ec87159db09a2006634dd30cf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>6</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>eec87159db09a2006634dd30cf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>age</element>
+            <position>7</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>62c87159db09a2006634dd30cf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <position>8</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>e2c87159db09a2006634dd30cf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>picture</element>
+            <position>9</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-08-04 08:54:28</sys_created_on>
+            <sys_id>66c87159db09a2006634dd30cf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16717_homechart_patient" sys_domain="global" view="Default view">ce3e856edbbb1a006634dd30cf96192c</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:54:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_16717_homechart_patient</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-06 23:42:23</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce3e856edbbb1a006634dd30cf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_16717_homechart_patient</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+            <sys_update_name>sys_ui_section_ce3e856edbbb1a006634dd30cf96192c</sys_update_name>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-06-06 23:42:23</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

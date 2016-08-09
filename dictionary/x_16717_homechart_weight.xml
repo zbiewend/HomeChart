@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Weight" max_length="40" name="x_16717_homechart_weight" type="collection">
+        <element label="Grams" max_length="40" name="grams" type="integer"/>
+        <element label="Kilograms" max_length="40" name="kilograms" type="decimal"/>
+        <element label="Measured with" max_length="100" name="measured_with" type="string"/>
+        <element label="Ounces" max_length="40" name="ounces" type="decimal"/>
+        <element label="Pounds" max_length="40" name="pounds" type="integer"/>
+        <element label="Pounds (dec)" max_length="40" name="pounds_dec" type="decimal"/>
+        <element choice="3" default="US lb oz" label="Units" max_length="40" name="units" type="choice">
+            <choice>
+                <element label="US (pound ounce)" sequence="0" value="US lb oz"/>
+                <element label="US (pounds - decimal)" sequence="1" value="US lb"/>
+                <element label="Metric (kg)" sequence="2" value="Metric kg"/>
+                <element label="Metric (g)" sequence="3" value="Metric g"/>
+            </choice>
+        </element>
+        <element label="Weight" max_length="100" name="weight" read_only="true" type="string"/>
+    </element>
+</database>

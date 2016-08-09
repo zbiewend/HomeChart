@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Lab" max_length="40" name="x_16717_homechart_lab" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var dateTime = current.date_time.toString();&#13;&#10;&#9;var date = dateTime.split( ' ' )[0];&#13;&#10;&#9;var type = current.type;&#13;&#10;&#9;var pt = current.patient.first_name;&#13;&#10;&#9;&#13;&#10;&#9;return pt + ' - ' + date + ' - ' + type;&#13;&#10;&#13;&#10;})(current);" choice="2" display="true" label="Name" max_length="200" name="name" read_only="true" type="string" virtual="true">
+            <choice/>
+        </element>
+        <element label="Ordered by" max_length="32" name="ordered_by" reference="x_16717_homechart_provider" type="reference"/>
+        <element label="Result" max_length="4000" name="result" type="string"/>
+        <element label="Type" max_length="100" name="type" type="string"/>
+        <index name="index">
+            <element name="ordered_by"/>
+        </index>
+    </element>
+</database>

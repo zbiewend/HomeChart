@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_widget_indicators">
+    <pa_widget_indicators action="INSERT_OR_UPDATE">
+        <aggregate/>
+        <breakdown/>
+        <breakdown_level2/>
+        <chart_type>spline</chart_type>
+        <color/>
+        <element/>
+        <element_level2/>
+        <follow_element>false</follow_element>
+        <follow_managed_element>false</follow_managed_element>
+        <followed_breakdown/>
+        <indicator display_value="Weight (pounds) OLD">b005147adb68e2406634dd30cf961939</indicator>
+        <label>Pounds</label>
+        <order/>
+        <second_y_axis>true</second_y_axis>
+        <sys_class_name>pa_widget_indicators</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-07-16 14:18:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a07c499bdb6026406634dd30cf96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pounds</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>pa_widget_indicators_a07c499bdb6026406634dd30cf96193b</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-07-16 14:18:24</sys_updated_on>
+        <widget display_value="Calories and weight by day">fc0c459bdb6026406634dd30cf96198c</widget>
+        <widget_indicator/>
+    </pa_widget_indicators>
+</record_update>

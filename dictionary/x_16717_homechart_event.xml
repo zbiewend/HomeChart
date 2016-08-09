@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Event" max_length="40" name="x_16717_homechart_event" type="collection">
+        <element choice="2" display="true" label="Event" max_length="255" name="event" type="string">
+            <choice>
+                <element label="Vomit through mouth and nose" sequence="0" value="Vomit through mouth and nose"/>
+            </choice>
+        </element>
+    </element>
+</database>

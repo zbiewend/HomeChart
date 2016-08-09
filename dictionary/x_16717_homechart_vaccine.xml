@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Vaccine" max_length="40" name="x_16717_homechart_vaccine" type="collection">
+        <element label="Details" max_length="4000" name="details" type="string"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Measurement" max_length="40" name="x_16717_homechart_measurement" type="collection">
+        <element label="Centimeters" max_length="40" name="centimeters" type="decimal"/>
+        <element label="Feet" max_length="40" name="feet" type="integer"/>
+        <element label="Feet (dec)" max_length="40" name="feet_dec" type="decimal"/>
+        <element label="Grams" max_length="40" name="grams" type="decimal"/>
+        <element label="Inches" max_length="40" name="inches" type="decimal"/>
+        <element label="Kilograms" max_length="40" name="kilograms" type="decimal"/>
+        <element label="Meters" max_length="40" name="meters" type="decimal"/>
+        <element label="Ounces" max_length="40" name="ounces" type="decimal"/>
+        <element label="Pounds" max_length="40" name="pounds" type="integer"/>
+        <element label="Pounds (dec)" max_length="40" name="pounds_dec" type="decimal"/>
+        <element choice="1" label="Type" max_length="100" name="type" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Unit" max_length="100" name="unit" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

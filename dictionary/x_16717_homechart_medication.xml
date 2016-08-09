@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Medication" max_length="40" name="x_16717_homechart_medication" type="collection">
+        <element display="true" label="Medicine" max_length="255" name="medicine" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Pill (mg)" sequence="0" value="Pill%20(mg)"/>
+                <element label="Oral liquid (ml)" sequence="1" value="Oral%20liquid%20(ml)"/>
+                <element label="IM (ml)" sequence="2" value="IM%20(ml)"/>
+                <element label="IV (ml)" sequence="3" value="IV%20(ml)"/>
+                <element label="Eye drops (qty)" sequence="4" value="Eye%20drops%20(qty)"/>
+                <element label="Topical" sequence="5" value="Topical"/>
+                <element label="Nasal" sequence="6" value="Nasal"/>
+                <element label="Inhaler" sequence="7" value="Inhaler"/>
+                <element label="Suppository (mg)" sequence="8" value="Suppository%20(mg)"/>
+                <element label="Other" sequence="9" value="Other"/>
+            </choice>
+        </element>
+    </element>
+</database>

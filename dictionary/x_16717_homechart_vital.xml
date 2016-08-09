@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Vital" max_length="40" name="x_16717_homechart_vital" type="collection">
+        <element label="Other" max_length="100" name="other" type="string"/>
+        <element choice="1" display="true" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Temperature" sequence="0" value="Temperature"/>
+                <element label="Pulse" sequence="1" value="Pulse"/>
+                <element label="Respiratory rate" sequence="2" value="Respiratory rate"/>
+                <element label="Blood pressure" sequence="3" value="Blood pressure"/>
+                <element label="SpO2" sequence="4" value="SpO2"/>
+                <element label="- Other -" sequence="5" value="- Other -"/>
+            </choice>
+        </element>
+        <element label="Value" max_length="4000" name="value" type="string"/>
+    </element>
+</database>

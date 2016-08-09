@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Questions" max_length="40" name="x_16717_homechart_questions" type="collection">
+        <element label="Answer" max_length="1000" name="answer" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_16717_homechart_patient" type="reference"/>
+        <element label="Question" max_length="255" name="question" type="string"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

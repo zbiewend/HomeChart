@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_16717_homechart.ConversionHelper</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ConversionHelper</name>
+        <script><![CDATA[var ConversionHelper = Class.create();
+ConversionHelper.prototype = {
+    initialize: function() {
+    },
+	
+	gram2kilogram: function( gram ) {
+		return gram / 1000;
+	},
+	
+	kilogram2gram: function( kilogram ) {
+		return kilogram * 1000;
+	},
+	
+	poundounce2pounddec: function ( pound, ounce ) {
+		var p = parseInt( pound, 10 );
+		var o = parseFloat( ounce );
+		
+		return ( p + o / 16 ).toFixed( 2 );
+	},
+	
+	pounddec2kilogram: function ( pound ) {
+		return pound * 0.453592;
+	},
+	
+	/*pounddec2gram: function ( pound ) {
+		return pound * 0.453592 * 1000;
+	},*/
+	
+	kilogram2pounddec: function ( kilogram ) {
+		return kilogram / 0.453592;
+	},
+	
+	pounddec2pound: function ( pounddec ) {
+		return Math.floor( pounddec );
+	},
+	
+	pounddec2ounce: function ( pounddec ) {
+		var p = parseFloat( pounddec );
+		p = p % 1;
+		return ( p * 16 ).toFixed( 2 );
+	},
+	
+	feetinch2meter: function ( feet, inch ) {
+		var f = parseInt( feet ) + ( parseFloat( inch ) / 12 );
+		return f * 0.3048;
+	},
+	
+	meter2centimeter: function ( meter ) {
+		return parseFloat( meter ) * 100;
+	},
+	
+	centimeter2meter: function ( centimeter ) {
+		return parseFloat( centimeter ) / 100;
+	},
+	
+	meter2feetint: function ( meter ) {
+		return Math.floor( parseFloat( meter ) / 0.3048 );
+	},
+	
+	meter2inch: function ( meter ) {
+		return ( parseFloat( meter ) / 0.3048 * 12 ) % 12; 
+	},
+
+    type: 'ConversionHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-06-20 15:57:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>903ed3bedb882e006634dd30cf9619f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ConversionHelper</sys_name>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>sys_script_include_903ed3bedb882e006634dd30cf9619f9</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-06-21 15:38:36</sys_updated_on>
+    </sys_script_include>
+</record_update>

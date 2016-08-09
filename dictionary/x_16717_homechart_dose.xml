@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_16717_homechart_encounter" label="Dose" max_length="40" name="x_16717_homechart_dose" type="collection">
+        <element label="Dose" max_length="40" name="dose" type="decimal"/>
+        <element label="Medication" max_length="32" name="medication" reference="x_16717_homechart_medication" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Prescription" max_length="32" name="prescription" reference="x_16717_homechart_prescription" reference_qual="javascript:'patient=' + g_form.getValue( 'patient' );" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Type" max_length="32" name="type" reference="sys_choice" type="reference"/>
+        <index name="index">
+            <element name="prescription"/>
+        </index>
+        <index name="index2">
+            <element name="medication"/>
+        </index>
+        <index name="index3">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_widgets">
+    <pa_widgets action="INSERT_OR_UPDATE">
+        <aggregate display_value="3d running AVG">573681d7db6026406634dd30cf9619de</aggregate>
+        <breakdown/>
+        <breakdown_level2/>
+        <breakdown_page_size>5</breakdown_page_size>
+        <chart_color/>
+        <color_scheme/>
+        <column_bulletchart>false</column_bulletchart>
+        <column_change>false</column_change>
+        <column_change_perc>false</column_change_perc>
+        <column_current>true</column_current>
+        <column_gap>false</column_gap>
+        <column_gap_perc>false</column_gap_perc>
+        <column_multiple>false</column_multiple>
+        <column_steps>1</column_steps>
+        <column_stepsize>1</column_stepsize>
+        <column_target>false</column_target>
+        <column_trend>true</column_trend>
+        <compare_main_label>Calories per day</compare_main_label>
+        <compare_number_of_periods>2</compare_number_of_periods>
+        <compare_period>year</compare_period>
+        <date_from>00000000</date_from>
+        <date_to>00000000</date_to>
+        <default_indicator/>
+        <description/>
+        <element/>
+        <element_level2/>
+        <elements_filter/>
+        <filter/>
+        <flip_axes>false</flip_axes>
+        <follow_element>false</follow_element>
+        <follow_managed_element>false</follow_managed_element>
+        <followed_breakdown/>
+        <followed_breakdown_relation/>
+        <gauge_autoscale>false</gauge_autoscale>
+        <gauge_from/>
+        <gauge_to/>
+        <include_comments>false</include_comments>
+        <include_confidence>false</include_confidence>
+        <include_forecast>false</include_forecast>
+        <include_target>false</include_target>
+        <include_thresholds>false</include_thresholds>
+        <include_trend>false</include_trend>
+        <indicator display_value="Infant Feeding Calories">57b940f6db68e2406634dd30cf96197c</indicator>
+        <is_compare_chart>false</is_compare_chart>
+        <lastscore_compare>previous_score</lastscore_compare>
+        <lastscore_periods_back>1</lastscore_periods_back>
+        <lookup_name/>
+        <manual_elements>false</manual_elements>
+        <max_color display_value="BluePalette_5">3f804840d7333100b4964ebfae610329</max_color>
+        <name>Calories and weight by day</name>
+        <number_of_records>5</number_of_records>
+        <percentages>no_percentages</percentages>
+        <period>3m</period>
+        <pivot_breakdown/>
+        <pivot_elements_filter/>
+        <related_dashboards>2</related_dashboards>
+        <scorecard_options>all</scorecard_options>
+        <show_bar>false</show_bar>
+        <show_breakdown_selector>true</show_breakdown_selector>
+        <show_data_labels>false</show_data_labels>
+        <show_range_selector>false</show_range_selector>
+        <show_top_x>10</show_top_x>
+        <show_total>false</show_total>
+        <show_visualization_selector>true</show_visualization_selector>
+        <sort_direction>asc</sort_direction>
+        <sort_on>value</sort_on>
+        <sys_class_name>pa_widgets</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-07-16 14:16:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc0c459bdb6026406634dd30cf96198c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Calories and weight by day</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>pa_widgets_fc0c459bdb6026406634dd30cf96198c</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+        <tag/>
+        <template>template1</template>
+        <type>time</type>
+        <visualization>column</visualization>
+        <yaxis2_from/>
+        <yaxis2_title/>
+        <yaxis2_to/>
+        <yaxis_from/>
+        <yaxis_title/>
+        <yaxis_to/>
+    </pa_widgets>
+</record_update>

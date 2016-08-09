@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Reminder Definition" max_length="40" name="x_16717_homechart_reminder_definition" type="collection">
+        <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
+        <element label="Encounter type" max_length="80" name="encounter_type" reference="sys_db_object" reference_key="name" type="reference"/>
+        <element dependent="encounter_type" dependent_on_field="encounter_type" label="Filter" max_length="4000" name="filter" type="conditions" use_dependent_field="true"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <index name="index">
+            <element name="encounter_type"/>
+        </index>
+    </element>
+</database>

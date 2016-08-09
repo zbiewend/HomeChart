@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Bottle" section_id="efc84faadb3f1a006634dd30cf9619c4" sys_domain="global" table="x_16717_homechart_infant_feeding" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volume_formula</element>
+            <position>0</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-10 23:18:29</sys_created_on>
+            <sys_id>ba1f2df7dbbf5a006634dd30cf9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bottle" display_value="Bottle" name="x_16717_homechart_infant_feeding" sys_domain="global" view="Default view">efc84faadb3f1a006634dd30cf9619c4</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-06-10 23:18:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volume_pumped_breastmilk</element>
+            <position>1</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-10 23:18:29</sys_created_on>
+            <sys_id>3e1f2df7dbbf5a006634dd30cf9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bottle" display_value="Bottle" name="x_16717_homechart_infant_feeding" sys_domain="global" view="Default view">efc84faadb3f1a006634dd30cf9619c4</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-06-10 23:18:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-10 23:18:29</sys_created_on>
+            <sys_id>be1f2df7dbbf5a006634dd30cf9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bottle" display_value="Bottle" name="x_16717_homechart_infant_feeding" sys_domain="global" view="Default view">efc84faadb3f1a006634dd30cf9619c4</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-06-10 23:18:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>formula_mixed_to_kcal_oz</element>
+            <position>3</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-10 23:18:29</sys_created_on>
+            <sys_id>321f2df7dbbf5a006634dd30cf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bottle" display_value="Bottle" name="x_16717_homechart_infant_feeding" sys_domain="global" view="Default view">efc84faadb3f1a006634dd30cf9619c4</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-06-10 23:18:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pumped_breastmilk_fortified_to_kcal_oz</element>
+            <position>4</position>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-10 23:18:29</sys_created_on>
+            <sys_id>b21f2df7dbbf5a006634dd30cf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bottle" display_value="Bottle" name="x_16717_homechart_infant_feeding" sys_domain="global" view="Default view">efc84faadb3f1a006634dd30cf9619c4</sys_ui_section>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-06-10 23:18:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Bottle</caption>
+            <header>false</header>
+            <name>x_16717_homechart_infant_feeding</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-07 08:37:58</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efc84faadb3f1a006634dd30cf9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Bottle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+            <sys_update_name>sys_ui_section_efc84faadb3f1a006634dd30cf9619c4</sys_update_name>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-06-07 08:37:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_16717_homechart_vital" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Temperature</label>
+            <language>en</language>
+            <name>x_16717_homechart_vital</name>
+            <sequence>0</sequence>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-13 01:55:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9726ac20db08aa006634dd30cf96192d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-07-04 21:33:22</sys_updated_on>
+            <value>Temperature</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pulse</label>
+            <language>en</language>
+            <name>x_16717_homechart_vital</name>
+            <sequence>1</sequence>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-13 01:55:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b26ac20db08aa006634dd30cf96192d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-07-04 21:33:22</sys_updated_on>
+            <value>Pulse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Respiratory rate</label>
+            <language>en</language>
+            <name>x_16717_homechart_vital</name>
+            <sequence>2</sequence>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-07-04 21:33:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d3dbc23db1c22406634dd30cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-07-04 21:33:22</sys_updated_on>
+            <value>Respiratory rate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blood pressure</label>
+            <language>en</language>
+            <name>x_16717_homechart_vital</name>
+            <sequence>3</sequence>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-13 01:55:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0326ac20db08aa006634dd30cf96192d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-07-04 21:33:22</sys_updated_on>
+            <value>Blood pressure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SpO2</label>
+            <language>en</language>
+            <name>x_16717_homechart_vital</name>
+            <sequence>4</sequence>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-13 01:55:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f26ac20db08aa006634dd30cf96192d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-07-04 21:33:22</sys_updated_on>
+            <value>SpO2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>- Other -</label>
+            <language>en</language>
+            <name>x_16717_homechart_vital</name>
+            <sequence>5</sequence>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-13 01:55:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9326ac20db08aa006634dd30cf96192e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-07-04 21:33:22</sys_updated_on>
+            <value>- Other -</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_16717_homechart_vital</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>zachary.biewend</sys_created_by>
+            <sys_created_on>2016-06-13 01:55:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d326ac20db08aa006634dd30cf96192d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+            <sys_update_name>sys_choice_x_16717_homechart_vital_type</sys_update_name>
+            <sys_updated_by>zachary.biewend</sys_updated_by>
+            <sys_updated_on>2016-07-04 21:33:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

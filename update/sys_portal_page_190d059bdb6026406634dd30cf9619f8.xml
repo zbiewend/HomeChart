@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-08-09 00:05:18">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-07-16 14:19:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>190d059bdb6026406634dd30cf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Infant feeding</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>sys_portal_page_190d059bdb6026406634dd30cf9619f8</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-07-16 14:19:42</sys_updated_on>
+        <title>PA Infant feeding</title>
+        <user/>
+        <view>pa_infant_feeding</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Infant feeding">190d059bdb6026406634dd30cf9619f8</page>
+                <summary/>
+                <sys_created_by>zachary.biewend</sys_created_by>
+                <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                <sys_id>2a10f18cdb3c26406634dd30cf96196a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>zachary.biewend</sys_updated_by>
+                <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">2a10f18cdb3c26406634dd30cf96196a</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>2a10f58cdb3c26406634dd30cf9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">2a10f18cdb3c26406634dd30cf96196a</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>6210f58cdb3c26406634dd30cf9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>190d059bdb6026406634dd30cf9619f8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">2a10f18cdb3c26406634dd30cf96196a</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>6610f58cdb3c26406634dd30cf9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">2a10f18cdb3c26406634dd30cf96196a</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>6a10f18cdb3c26406634dd30cf96196a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>fc0c459bdb6026406634dd30cf96198c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">2a10f18cdb3c26406634dd30cf96196a</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>ae10f58cdb3c26406634dd30cf9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>Calories and weight by day</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">2a10f18cdb3c26406634dd30cf96196a</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>ea10f58cdb3c26406634dd30cf9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>time</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Infant feeding">190d059bdb6026406634dd30cf9619f8</page>
+                <summary/>
+                <sys_created_by>zachary.biewend</sys_created_by>
+                <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                <sys_id>a610f58cdb3c26406634dd30cf9619e4</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>zachary.biewend</sys_updated_by>
+                <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">a610f58cdb3c26406634dd30cf9619e4</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>3a10f58cdb3c26406634dd30cf9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>Calories and weight by day</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">a610f58cdb3c26406634dd30cf9619e4</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>7610f58cdb3c26406634dd30cf9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>time</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">a610f58cdb3c26406634dd30cf9619e4</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>b210f58cdb3c26406634dd30cf9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">a610f58cdb3c26406634dd30cf9619e4</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>e610f58cdb3c26406634dd30cf9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>fc0c459bdb6026406634dd30cf96198c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">a610f58cdb3c26406634dd30cf9619e4</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>fa10f58cdb3c26406634dd30cf9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>190d059bdb6026406634dd30cf9619f8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">a610f58cdb3c26406634dd30cf9619e4</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>fe10f58cdb3c26406634dd30cf9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Infant feeding">190d059bdb6026406634dd30cf9619f8</page>
+                <summary/>
+                <sys_created_by>zachary.biewend</sys_created_by>
+                <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                <sys_id>ae10f18cdb3c26406634dd30cf961968</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>zachary.biewend</sys_updated_by>
+                <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">ae10f18cdb3c26406634dd30cf961968</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>2210f18cdb3c26406634dd30cf96196a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>process</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">ae10f18cdb3c26406634dd30cf961968</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>6e10f18cdb3c26406634dd30cf961969</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>Patient</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">ae10f18cdb3c26406634dd30cf961968</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>aa10f18cdb3c26406634dd30cf961969</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">ae10f18cdb3c26406634dd30cf961968</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>e210f18cdb3c26406634dd30cf96196a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>190d059bdb6026406634dd30cf9619f8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">ae10f18cdb3c26406634dd30cf961968</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>e610f18cdb3c26406634dd30cf961969</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-07-18 17:48:25">ae10f18cdb3c26406634dd30cf961968</portal_section>
+                        <sys_created_by>zachary.biewend</sys_created_by>
+                        <sys_created_on>2016-07-19 00:48:25</sys_created_on>
+                        <sys_id>ee10f18cdb3c26406634dd30cf961968</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.biewend</sys_updated_by>
+                        <sys_updated_on>2016-07-19 00:48:25</sys_updated_on>
+                        <value>56efe18cdb3c26406634dd30cf961962</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

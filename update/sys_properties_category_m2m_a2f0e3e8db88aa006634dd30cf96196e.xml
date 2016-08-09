@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="HomeChart">f790e3e8db88aa006634dd30cf9619bb</category>
+        <order>100</order>
+        <property display_value="x_16717_homechart.CaloriesPerOunceBreastMilk" name="x_16717_homechart.CaloriesPerOunceBreastMilk">aa80e3e8db88aa006634dd30cf96196b</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>zachary.biewend</sys_created_by>
+        <sys_created_on>2016-06-13 15:31:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a2f0e3e8db88aa006634dd30cf96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_16717_homechart.CaloriesPerOunceBreastMilk.HomeChart breast feeding</sys_name>
+        <sys_package display_value="HomeChart" source="x_16717_homechart">2cc902f5db731a006634dd30cf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HomeChart">2cc902f5db731a006634dd30cf9619cf</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_a2f0e3e8db88aa006634dd30cf96196e</sys_update_name>
+        <sys_updated_by>zachary.biewend</sys_updated_by>
+        <sys_updated_on>2016-06-13 15:31:26</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
